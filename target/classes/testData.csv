@@ -1,0 +1,10 @@
+testCaseName,operation,room_id,meeting_url,rtmp_urls,record,resolution
+happyFlow,start,62ed772bb1e780e78c3ac83a,https://hkathed.app.100ms.live/preview/bkd-cvq-ubl,,true,{\"width\": 1280\, \"height\": 720}
+stopOperation,stop,62eeaa22b1e780e78c3ada69,,,,
+STOPOperation,STOP,62eeaa22b1e780e78c3ada69,,,,
+incorrectRoomId,stop,62eeaa22b1e780e78c369,,,,
+operationInvalid,stop start,62eeaa22b1e780e78c3ada69,,,,
+roomIdMissing,start,,https://hkathed.app.100ms.live/preview/bkd-cvq-ubl,,true,{\"width\": 1280\, \"height\": 720}
+meetingUrlInvalid,start,,https://asg.app.100ms.live/preview/bkd-cvq-ubl,,true,{\"width\": 1280\, \"height\": 720}
+operationMissing,,62eeaa22b1e780e78c3ada69,,,,
+resolutionNotSupported,start,62eeaa22b1e780e78c3ada69,,,true,{\"width\": 280\, \"height\": 120}

@@ -1,0 +1,8 @@
+testCaseName,id,room_id,active,before,after,limit,start
+happyPath,,62eeaa22b1e780e78c3ada69,,,,1,
+limitZero,,62eeaa22b1e780e78c3ada69,,,,0,
+noParamWithLimitOne,,,,,,1,
+incorrectRoomIdWithActiveFalse,,62eeaa2269,false,,,1,
+incorrectRoomId,,62eeaa2269,,,,1,
+correctRoomIdWithActiveFalse,,62eeaa22b1e780e78c3ada69,false,,,1,
+correctRoomIdWithActiveTrue,,62eeb282c16640065696b2ea,true,,,1,
